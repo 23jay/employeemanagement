@@ -1,0 +1,26 @@
+.center-block {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 50%;
+  }
+  
+  .cards-container {
+    column-count: 3;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .cards-container div {
+    background: floralwhite;
+    margin: 10px 0;
+  
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  .cards-container div:first-child {
+    margin: 0;
+  }
+  
